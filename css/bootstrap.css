@@ -5524,7 +5524,7 @@ select:focus {
   background-repeat: no-repeat;
   overflow: hidden;
 }
-.contact-icons > li { opacity: 0.6; 
+.contact-icons > li { opacity: 0.6;
           display: inline;
 }
 .contact-icons > li:hover { opacity: 1; }
@@ -5541,6 +5541,6 @@ select:focus {
 .contact-icons a.email      { background-position:    0px 0px; }
 .contact-icons a.twitter    { background-position:  -60px 0px; }
 .contact-icons a.facebook   { background-position: -120px 0px; }
-.contact-icons a.googleplus { background-position: -180px 0px; }
+.contact-icons a.website    { background-position: -180px 0px; }
 .contact-icons a.linkedin   { background-position: -240px 0px; }
 .contact-icons a.github     { background-position: -300px 0px; }

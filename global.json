@@ -25,13 +25,344 @@
 
   "officer_positions": [
     "President",
-    "Vice President",
-    "Social Chair",
-    "Technical Chair",
-    "Treasurer"
+    "Internal Vice President",
+    "External Vice President",
+    "Treasurer",
+    "Events Co-Chair 1",
+    "Events Co-Chair 2",
+    "HackRice Chair",
+    "Marketing Chair",
+    "RiceApps Chair"
   ],
 
   "officers": {
+
+    "President": {
+      "name":            "Krishna Thiagarajan",
+      "email":           "krt3@rice.edu",
+      "image":           "img/officers/krishna.jpg",
+      "class":           "McMurtry 2017",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:krt3@rice.edu"
+      }
+    },
+
+    "Internal Vice President": {
+      "name":            "Sam Shadwell",
+      "email":           "sls13@rice.edu",
+      "image":           "img/officers/sam.jpg",
+      "class":           "Duncan 2017",
+      "hometown":        "Knoxville, TN",
+      "contacts": {
+        "email":         "mailto:sls13@rice.edu"
+      }
+    },
+
+    "External Vice President": {
+      "name":            "Spencer Chang",
+      "email":           "sc73@rice.edu",
+      "image":           "img/officers/spencer.jpg",
+      "class":           "Jones 2019",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:sc73@rice.edu"
+      }
+    },
+
+    "Treasurer": {
+      "name":            "Ani Kunaparaju",
+      "email":           "avk3@rice.edu",
+      "image":           "img/officers/ani.jpg",
+      "class":           "Jones 2019",
+      "hometown":        "Cupertino, CA",
+      "contacts": {
+        "email":         "mailto:avk3@rice.edu"
+      }
+    },
+
+    "Events Co-Chair 1": {
+      "name":            "May Zhong",
+      "email":           "mpz1@rice.edu",
+      "image":           "img/officers/may.jpg",
+      "class":           "Baker 2018",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:mpz1@rice.edu"
+      }
+    },
+
+    "Events Co-Chair 2": {
+        "name":            "Jonathan Jao",
+        "email":           "jfj2@rice.edu",
+        "image":           "img/officers/jonathan.jpg",
+        "class":           "Hanszen 2018",
+        "hometown":        "Houston, TX",
+        "contacts": {
+          "email":         "mailto:jfj2@rice.edu"
+        }
+    },
+
+    "HackRice Chair": {
+      "name":            "Prudhvi Boyapalli",
+      "email":           "prb2@rice.edu",
+      "image":           "img/officers/prudhvi.jpg",
+      "class":           "Duncan 2017",
+      "hometown":        "Rogers, AR",
+      "contacts": {
+        "email":         "mailto:prb2@rice.edu"
+      }
+    },
+
+    "Marketing Chair": {
+      "name":            "Ashwin Varma",
+      "email":           "av40@rice.edu",
+      "image":           "img/officers/ashwin.jpg",
+      "class":           "Lovett 2019",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:av40@rice.edu"
+      }
+    },
+
+    "RiceApps Chair": {
+      "name":            "Jeffrey Xiong",
+      "email":           "jx13@rice.edu",
+      "image":           "img/officers/jeffrey.jpg",
+      "class":           "McMurtry 2018",
+      "hometown":        "South Pasadena, CA",
+      "contacts": {
+        "email":         "mailto:jx13@rice.edu"
+      }
+    }
+  },
+
+  "officers_2015_2016": {
+
+    "President": {
+      "name":            "Xilin Liu",
+      "email":           "xal1@rice.edu",
+      "image":           "img/officers/xilin.jpg",
+      "class":           "Duncan 2016",
+      "hometown":        "Cary, NC",
+      "contacts": {
+        "email":         "mailto:xal1@rice.edu",
+        "linkedin":      "https://www.linkedin.com/in/xilinliu",
+        "github":        "https://github.com/phrayezzen"
+      },
+      "questions": [
+        {
+          "question": "If you could have a super power, what would it be?",
+          "answer":   "Always write bug free code"
+        },
+        {
+          "question": "What's your favorite video game?",
+          "answer":   "SUPER SMASH BROTHERS"
+        },
+        {
+          "question": "Favorite letter of the alphabet?",
+          "answer":   "It's a tossup between w and y"
+        },
+        {
+          "question": "Favorite snack?",
+          "answer":   "Flaming hot Cheetos with a side of Mountain Dew"
+        },
+        {
+          "question": "Favorite programming language?",
+          "answer":   "Python <3"
+        }
+      ]
+    },
+
+    "Internal Vice President": {
+      "name":            "Raymond Cano",
+      "email":           "rfc1@rice.edu",
+      "image":           "img/officers/raymond.jpg",
+      "class":           "Wiess 2017",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:rfc1@rice.edu",
+        "github":        "https://www.github.com/rayraycano"
+      },
+      "questions": [
+        {
+          "question": "What is your spirit vegetable?",
+          "answer":   "Bok Choi"
+        },
+        {
+          "question": "Hobbies?",
+          "answer":   "Hip hop, ideating, basketball, soccer."
+        },
+        {
+          "question": "Favorite languages?",
+          "answer":   "Python, Chinese, Spanish"
+        },
+        {
+          "question": "Favorite class?",
+          "answer":   "Algorithms"
+        }
+      ]
+    },
+
+    "Social Chair": {
+      "name":            "Lily Wen",
+      "email":           "lw32@rice.edu",
+      "image":           "img/officers/lily.jpg",
+      "class":           "Lovett 2017",
+      "hometown":        "San Ramon, CA",
+      "contacts": {
+        "email":         "mailto:lw32l@rice.edu",
+        "github":        "https://github.com/lwen2027"
+      },
+      "questions": [
+        {
+          "question": "Favorite websites?",
+          "answer":   "www.fastcodesign.com/ + munchies.vice.com/en/"
+        },
+        {
+          "question": "Favorite movies?",
+          "answer":   "Forest Gump + A Beautiful Mind + pretty much all Studio Ghibli films"
+        },
+        {
+          "question": "Favorite shows?",
+          "answer":   "Silicon Valley + The Mindy Project + Masterchef"
+        },
+        {
+          "question": "Spirit animal?",
+          "answer":   "Chipmunk"
+        },
+        {
+          "question": "Favorite programming language?",
+          "answer":   "Java"
+        }
+      ]
+    },
+
+    "Technical Chair": {
+      "name":            "Krishna Thiagarajan",
+      "email":           "krt3@rice.edu",
+      "image":           "img/officers/krishna.jpg",
+      "class":           "McMurtry 2017",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:krt3@rice.edu"
+      },
+      "questions": [
+        {
+          "question": "If you could have a super power, what would it be?",
+          "answer":   "Flying would be dope."
+        },
+        {
+          "question": "What's your spirit animal?",
+          "answer":   "A sea lion"
+        },
+        {
+          "question": "Favorite bearded fellow?",
+          "answer":   "James Harden. Gandalf comes a close second."
+        },
+        {
+          "question": "Hobbies / Activities / Interests?",
+          "answer":   "Tennis, Bhangra, Music, Football, and coding"
+        }
+      ]
+    },
+
+    "Treasurer": {
+      "name":            "Eddie Dugan",
+      "email":           "ejd6@rice.edu",
+      "image":           "img/officers/eddie.jpg",
+      "class":           "Martel 2018",
+      "hometown":        "Downingtown, PA",
+      "contacts": {
+        "email":         "mailto:ejd6@rice.edu",
+        "github":        "https://github.com/eddiedugan"
+      },
+      "questions": [
+        {
+          "question": "If you could have a super power, what would it be?",
+          "answer":   "Control time."
+        },
+        {
+          "question": "What's your favorite video game?",
+          "answer":   "Majora's Mask."
+        },
+        {
+          "question": "What's your spirit animal?",
+          "answer":   "Tapir"
+        },
+        {
+          "question": "Favorite North Servery Cookie?",
+          "answer":   "Macadamia nut chocolate chip."
+        },
+        {
+          "question": "Favorite programming language?",
+          "answer":   "Python"
+        }
+      ]
+    },
+
+    "External Vice President": {
+      "name": "Jake Peacock",
+      "email": "jhp4@rice.edu",
+      "image": "img/officers/jake.jpg",
+      "class": "Lovett 2018",
+      "hometown": "Houston, TX",
+      "contacts": {
+        "email": "mailto:jhp4@rice.edu",
+        "website": "http://jake-peacock.com"
+      },
+      "questions": [
+        {
+          "question": "What is your spirit animal?",
+          "answer": "Golden retriever that thinks it's a tiger."
+        },
+        {
+          "question": "What is your irrational fear?",
+          "answer": "I have a phobia of overheating"
+        },
+        {
+          "question": "How quickly can you eat a bowl of ramen?",
+          "answer": "26.8 seconds"
+        },
+        {
+          "question": "What are your favorite tv shows?",
+          "answer": "Silicon Valley - True Detective - Mr Robot"
+        }
+      ]
+    },
+
+    "Marketing Chair": {
+      "name":            "May Zhong",
+      "email":           "mpz1@rice.edu",
+      "image":           "img/officers/may.jpg",
+      "class":           "Baker 2018",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:mpz1@rice.edu",
+        "github":        "https://github.com/___"
+      },
+      "questions": [
+        {
+          "question": "What is your spirit animal?",
+          "answer":   "dog."
+        },
+        {
+          "question": "What is your spirit superhero?",
+          "answer":   "kirby."
+        },
+        {
+          "question": "What's your spirit drink?",
+          "answer":   "tapioca"
+        },
+        {
+          "question": "What is your spirit food?",
+          "answer":   "bread."
+        }
+      ]
+    }
+  },
+
+  "officers_2014_2015": {
 
     "President": {
       "name":            "Carolyn Shuford",
@@ -107,7 +438,7 @@
     "Social Chair": {
       "name":            "Kathy Li",
       "email":           "kathy.w.li@rice.edu",
-      "image":           "img/officers/kathy.jpg", 
+      "image":           "img/officers/kathy.jpg",
       "class":           "Hanszen 2016",
       "hometown":        "San Jose, CA",
       "contacts": {
@@ -139,7 +470,7 @@
         }
       ]
     },
-    
+
     "Technical Chair": {
       "name":            "Aaron Roe",
       "email":           "acr2@rice.edu",

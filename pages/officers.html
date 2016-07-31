@@ -5,11 +5,11 @@
 ================================================== -->
 <section id="main">
   <div class="page-header">
-    <h1>Officers 2014 - 2015</h1>
+    <h1>Officers 2016 - 2017</h1>
   </div>
 
   <!--  Carousel -->
-  <!--  consult Bootstrap docs at 
+  <!--  consult Bootstrap docs at
         http://twitter.github.com/bootstrap/javascript.html#carousel -->
   <div id="officers-carousel" class="carousel slide">
 
@@ -33,14 +33,14 @@
               <strong>Class: </strong> {{ officer.class }}<br>
               <strong>Hometown: </strong> {{ officer.hometown }}
             </p>
-            <ul>
+            <!-- <ul>
               {% for question in officer.questions %}
                 <li>
                   <strong>{{ question.question }}</strong><br>
                   {{ question.answer }}
                 </li>
               {% endfor %}
-            </ul>
+            </ul> -->
             <p><ul class="contact-icons" style="text-align: center;">
               {% for contact, link in officer.contacts.items() %}
                 <li><a class="{{ contact }}" target="_blank" href="{{ link }}"></a></li>
