@@ -1,90 +1,111 @@
 <!DOCTYPE html>
 <!-- saved from url=(0029)http://bootswatch.com/cyborg/ -->
 <html lang="en">
-  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Rice Computer Science Club</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="author" content="">
+    <head>
+        <title>Rice Computer Science Club</title>
+        <!-- meta -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- styles -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="css/template-menu.css">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif" rel="stylesheet">
+        <!-- shortcut icon -->
+        <link rel="shortcut icon" type="image/x-icon" href="img/brand/favicon.ico">
+        <!-- scripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/carousel.js"></script>
+    </head>
+    
+    <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="50">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <div id="st-container" class="st-container">
+            <!-- navigation -->
+            <nav class="st-menu st-effect-4">
+                <!-- <div> -->
+                    <!-- <div id="icon-logo"> -->
+                    <a href="index"><svg width="50px" height="50px" viewBox="287 446 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="svgLogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(290.000000, 449.000000)">
+                            <polygon id="Stroke-1" stroke="#FEFEFE" stroke-width="5" points="91.8159 91.8159 0.1839 91.8159 0.1839 0.1839 46.1719 0.1839 91.8159 0.1839"></polygon>
+                            <polygon id="Fill-2" fill="#FEFEFE" points="46.0003 63.2261 60.7233 71.7651 60.7233 54.7611"></polygon>
+                            <polygon id="Fill-3" fill="#FEFEFE" points="31.2772 20.8235 46.0002 29.2895 46.0002 12.2835"></polygon>
+                            <polygon id="Fill-4" fill="#FEFEFE" points="16.5532 29.2891 16.5532 46.2941 16.5532 63.2261 31.2772 54.7611 31.2772 37.7551 31.2772 20.8231"></polygon>
+                            <polygon id="Fill-5" fill="#BABCBE" points="16.5532 63.2261 31.2772 71.7651 46.0002 80.2321 60.7232 71.7651 46.0002 63.2261 31.2772 54.7611"></polygon>
+                            <polygon id="Fill-6" fill="#BABCBE" points="60.7234 71.7654 75.4464 63.2264 60.7234 54.7604"></polygon>
+                            <polygon id="Fill-7" fill="#BABCBE" points="31.2772 37.7554 46.0002 29.2894 31.2772 20.8234"></polygon>
+                        </g>
+                    </svg></a>
+                        <!-- </div> -->
+                    {% for nav_item in nav_bar %}
+                    <a href="{{nav_item.link}}" id="navlink"> {{ nav_item.text }} </a>
+                    {% endfor %}
+                <!-- </div> -->
+            </nav>
 
-    <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/docs.css" rel="stylesheet">
+            <div class="st-pusher">
+                <div class="st-content">
+                    <div class="st-content-inner">
 
-	<link rel="shortcut icon" type="image/x-icon" href="img/brand/favicon.ico">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+                        <!-- header -->
+                        <div id="header">
+                            
+                            <div id="icon-menu" data-effect="st-effect-4">
+                                <svg id="nav-icon-svg" width="25px" height="25px" viewBox="947 45 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" fill="none" fill-rule="evenodd" transform="translate(947.000000, 45.000000)">
+                                        <rect id="menu1" fill="#262E44" x="0" y="0" width="25" height="5"></rect>
+                                        <rect id="menu2" fill="#262E44" x="0" y="8" width="25" height="5"></rect>
+                                        <rect id="menu3" fill="#262E44" x="0" y="16" width="25" height="5"></rect>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
 
-  </head>
+                        {% block content %}{% endblock %}
 
-  <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="50">
+                        <div class="container" style="margin-top: 50px;">
+                            <footer id="footer">
+                                <p>&copy; Rice Computer Science Club
+                                    <script>
+                                        var currentDate = new Date()
+                                        var year = currentDate.getFullYear()
+                                        document.write( year)
+                                    </script>
+                                </p>
+                            </footer>
+                        </div>
 
-  <!-- Navbar
-    ================================================== -->
-    <div class="navbar navbar-fixed-top">
-     <div class="navbar-inner">
-       <div class="container">
-         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </a>
-       <a href="/">
-         <img class="brand" src="img/brand/logo.png"/>
-       </a>
-        <div class="nav-collapse" id="main-menu">
-          <ul class="nav" id="main-menu-left">
-            {% for nav_item in nav_bar %}
-          <li><a id="swatch-link" href="{{ nav_item.link }}">{{ nav_item.text }}</a></li>
-            {% endfor %}
-          </ul>
-         </div>
-       </div>
-     </div>
-    </div>
+                        <!-- <div style="height:500px"></div> -->
 
-    <div class="container" style="margin-top: 30px;">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    {% block content %}{% endblock %}
 
-    </div><!-- /container -->
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <!-- Google Analytics Tracking -->
+        <script type="text/javascript">
 
-    <div class="container" style="margin-top: 50px;">
-      <footer id="footer">
-        <p>&copy; Rice Computer Science Club
-        <script>
-          var currentDate = new Date()
-          var year = currentDate.getFullYear()
-          document.write( year)
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-37280818-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
         </script>
-        </p>
-      </footer>
-    </div>
+        <script src="js/classie.js"></script>
+        <script src="js/sidebarEffects.js"></script>
+    </body>
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- Google Analytics Tracking -->
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-37280818-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-  </script>
-  </body>
 </html>

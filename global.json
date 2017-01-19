@@ -4,51 +4,40 @@
     {"text": "Officers",    "link": "officers"},
     {"text": "Career",      "link": "career"},
     {"text": "Events",      "link": "events"},
-    {"text": "Rice Apps",   "link": "http://riceapps.org/"},
+    {"text": "RiceApps",   "link": "http://riceapps.org/"},
     {"text": "HackRice",    "link": "http://hack.rice.edu/"},
     {"text": "Constitution","link": "/files/Constitution.pdf"},
     {"text": "Contact",     "link": "contact"}
   ],
 
   "links": {
-    "mailing_list":      "http://goo.gl/forms/7jX0w9Ho93",
+    "mailing_list":      "https://mailman.rice.edu/mailman/listinfo/geeks-l",
     "facebook":          "http://www.facebook.com/pages/Rice-Computer-Science-Club/193817073994670",
     "cs_facebook_group": "http://www.facebook.com/groups/365985373415471/",
     "twitter":           "https://twitter.com/RiceCompSciClub"
   },
 
   "faculty_sponsor": {
-    "name":              "Dr. Scott Rixner",
-    "email":             "mailto:rixner@rice.edu",
-    "link":           "http://www.cs.rice.edu/~rixner/"
+    "name":              "Dr. Scott Cutler",
+    "email":             "mailto:cutler@rice.edu",
+    "link":           "http://www.cs.rice.edu/~cutler/"
   },
 
   "officer_positions": [
     "President",
-    "Internal Vice President",
     "External Vice President",
     "Treasurer",
     "Events Co-Chair 1",
     "Events Co-Chair 2",
     "HackRice Chair",
-    "Marketing Chair",
-    "RiceApps Chair"
+    "RiceApps Chair",
+    "Freshman Rep 1",
+    "Freshman Rep 2"
   ],
 
   "officers": {
 
     "President": {
-      "name":            "Krishna Thiagarajan",
-      "email":           "krt3@rice.edu",
-      "image":           "img/officers/krishna.jpg",
-      "class":           "McMurtry 2017",
-      "hometown":        "Houston, TX",
-      "contacts": {
-        "email":         "mailto:krt3@rice.edu"
-      }
-    },
-
-    "Internal Vice President": {
       "name":            "Sam Shadwell",
       "email":           "sls13@rice.edu",
       "image":           "img/officers/sam.jpg",
@@ -114,17 +103,6 @@
       }
     },
 
-    "Marketing Chair": {
-      "name":            "Ashwin Varma",
-      "email":           "av40@rice.edu",
-      "image":           "img/officers/ashwin.jpg",
-      "class":           "Lovett 2019",
-      "hometown":        "Houston, TX",
-      "contacts": {
-        "email":         "mailto:av40@rice.edu"
-      }
-    },
-
     "RiceApps Chair": {
       "name":            "Jeffrey Xiong",
       "email":           "jx13@rice.edu",
@@ -133,6 +111,28 @@
       "hometown":        "South Pasadena, CA",
       "contacts": {
         "email":         "mailto:jx13@rice.edu"
+      }
+    },
+
+    "Freshman Rep 1": {
+      "name":            "Avanthika Mahendrababu",
+      "email":           "am118@rice.edu",
+      "image":           "img/officers/avanthika.jpg",
+      "class":           "Brown 2020",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:am118@rice.edu"
+      }
+    },
+
+    "Freshman Rep 2": {
+      "name":            "Anthony Cho",
+      "email":           "sc80@rice.edu",
+      "image":           "img/officers/anthony.jpg",
+      "class":           "Duncan 2020",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:sc80@rice.edu"
       }
     }
   },

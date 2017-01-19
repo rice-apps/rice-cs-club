@@ -1,0 +1,215 @@
+.st-content {
+	background-color: white;
+}
+
+.page-header {
+  border-bottom: 1px solid #262E44;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction:         row;
+  -webkit-flex-wrap: wrap; /* Safari */
+  flex-wrap:         wrap;
+  -webkit-justify-content: space-between; /* Safari */
+  justify-content:         space-between;
+}
+.span4 {
+  width: 30%;
+}
+.span6 {
+  width: 47%;
+}
+@media (max-width: 760px) {
+  .span4, .span6 {
+    width: 100%;
+  }
+}
+
+/* Carousel */
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+.carousel-inner {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.carousel .item {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+.carousel .item > img {
+  display: block;
+  line-height: 1;
+}
+.carousel .active,
+.carousel .next,
+.carousel .prev {
+  display: block;
+}
+.carousel .active {
+  left: 0;
+}
+.carousel .next,
+.carousel .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.carousel .next {
+  left: 100%;
+}
+.carousel .prev {
+  left: -100%;
+}
+.carousel .next.left,
+.carousel .prev.right {
+  left: 0;
+}
+.carousel .active.left {
+  left: -100%;
+}
+.carousel .active.right {
+  left: 100%;
+}
+.carousel-control {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #020202;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  font-family: sans-serif;
+}
+.carousel-control.right {
+  left: auto;
+  right: 15px;
+}
+.carousel-control:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px;
+  background: #262E44;
+  /*background: rgba(0, 0, 0, 0.75);*/
+}
+.carousel-caption h4,
+.carousel-caption p {
+  color: #ffffff;
+  line-height: 20px;
+}
+.carousel-caption h4 {
+  margin: 0 0 5px;
+}
+.carousel-caption p {
+  margin-bottom: 0;
+}
+
+/* Officers Carousel */
+#officers-carousel .item {
+  min-height: 500px;
+}
+#officers-carousel .carousel-caption {
+  top: 0;
+  left: 500px;
+}
+
+#officers-carousel .carousel-caption h1, h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 30px;
+}
+#officers-carousel .carousel-caption h3 {
+  color: white;
+}
+#officers-carousel .carousel-caption h1 {
+  color: #F4B85C;
+  margin-bottom: 10px;
+}
+#officers-carousel .carousel-caption ul {
+  list-style: none;
+  margin: 10px 0;
+}
+#officers-carousel .carousel-caption li {
+  margin: 5px 0;
+}
+
+/* Contact Icons */
+.contact-icons, .contact-icons-dark {
+  vertical-align: middle;
+  margin-left: 0px;
+  padding: 10px;
+  list-style: none;
+  background-position: 10px 21px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.contact-icons > li, .contact-icons-dark > li { opacity: 0.6;
+          display: inline;
+}
+.contact-icons > li:hover, .contact-icons-dark > li:hover { opacity: 1; }
+/*.contact-icons > li:first-child { border-left: 1px solid rgba(255,255,255,0.1); }*/
+.contact-icons a, .contact-icons-dark a {
+  height: 60px;
+  width: 60px;
+  border: 1px solid rgba(0,0,0,0.1);
+  /*border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-right: 1px solid rgba(255,255,255,0.1);*/
+  background: url(../img/icons/contact_icons.png) 0 0 no-repeat;
+  display: inline-block;
+}
+.contact-icons a.email      { background-position:    0px 0px; }
+.contact-icons a.twitter    { background-position:  -60px 0px; }
+.contact-icons a.facebook   { background-position: -120px 0px; }
+.contact-icons a.website    { background-position: -180px 0px; }
+.contact-icons a.linkedin   { background-position: -240px 0px; }
+.contact-icons a.github     { background-position: -300px 0px; }
+
+.contact-icons-dark a {
+  height: 60px;
+  width: 60px;
+  border: 1px solid rgba(0,0,0,0.1);
+  /*border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-right: 1px solid rgba(255,255,255,0.1);*/
+  background: url(../img/icons/dark_contact_icons.png) 0 0 no-repeat;
+  display: inline-block;
+}
+.contact-icons-dark a.email      { background-position:    0px 0px; }
+.contact-icons-dark a.twitter    { background-position:  -60px 0px; }
+.contact-icons-dark a.facebook   { background-position: -120px 0px; }
+.contact-icons-dark a.website    { background-position: -180px 0px; }
+.contact-icons-dark a.linkedin   { background-position: -240px 0px; }
+.contact-icons-dark a.github     { background-position: -300px 0px; }
+
+footer {
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
