@@ -90,6 +90,27 @@ section a:hover {
 	color: #E7CCA3;
 }
 
+#main2 {
+	background-color: #4b587d;
+}
+
+#main2 h1, #main2 p {
+	color: white;
+}
+
+#main2 p {
+	color: #C7C8CC;
+	font-weight: lighter;
+}
+
+#main2 a {
+	color: #F4B85C;
+}
+
+#main2 a:hover {
+	color: #E7CCA3;
+}
+
 #social {
 	display: flex;
 	justify-content: center;
@@ -101,4 +122,3 @@ section a:hover {
 	margin-left: 15px;
 	margin-right: 15px;
 }
-
