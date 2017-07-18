@@ -34,7 +34,8 @@
     "Events Co-Chair 2",
     "HackRice Co-Chair 1",
     "HackRice Co-Chair 2",
-    "RiceApps Chair"
+    "RiceApps Chair",
+    "Freshman Rep 1"
   ],
 
   "officer_positions": [
@@ -161,8 +162,16 @@
       }
     },
 
-    "Freshman Rep": {
-
+    "Freshman Rep 1": {
+      "name":            "Avanthika Mahendrababu",
+      "email":           "am118@rice.edu",
+      "image":           "img/officers/avanthika.jpg",
+      "class":           "Brown 2020",
+      "position":        "Freshman Rep",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:am118@rice.edu"
+      }
     },
 
     "Freshman Rep": {
