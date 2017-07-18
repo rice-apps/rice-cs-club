@@ -5,7 +5,7 @@
 ================================================== -->
 <section id="main">
   <div class="page-header">
-    <h1>Officers 2016 - 2017</h1>
+    <h1>Officers {{ year }}</h1>
   </div>
 
   <!--  Carousel -->
@@ -14,16 +14,16 @@
   <div id="officers-carousel" class="carousel slide">
 
     <div class="carousel-inner">
-      {% for position in officer_positions %}
+      {% for position in active_positions %}
       {% set officer = officers[position] %}
-        {% if position == "President" %}
-          <div class="item active">
+        {% if active_positions[0] == position %}
+          <div class="item active"> <!-- Set first position in list to active -->
         {% else %}
           <div class="item">
         {% endif %}
           <img src="{{ officer.image }}" alt="{{ officer.name }}" />
           <div class="carousel-caption">
-            <h3>{{ position }}</h3>
+            <h3>{{ officer.position }}</h3>
             {% if officer.link %}
               <h1><a target="_blank" href="{{ officer.link }}">{{ officer.name }}</a></h1>
             {% else %}
