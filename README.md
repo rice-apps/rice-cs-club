@@ -12,6 +12,13 @@ Bug tracker
 -----------
 Have a bug? Please create an issue here on GitHub! Also, when filing please make sure you're familiar with [necolas's guidelines](https://github.com/necolas/issue-guidelines). thanks! <3
 
+Development
+-------
+Install the [Google Cloud SDK](), follow the setup to find , see this [documentation](https://cloud.google.com/appengine/docs/standard/python/tools/using-local-server) for running the server locally. 
+
+Run `dev_appserver.py app.yaml` to test locally after you clone the repo.
+
+Once you're satisfied with your changes, deploy the code to Google Cloud using `gcloud app deploy --version <version_number>`, where version number is usually the year range of the club (ex: "2017-2018")
 
 Authors
 -------

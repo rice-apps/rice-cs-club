@@ -23,12 +23,13 @@
     "link":           "http://www.cs.rice.edu/~cutler/"
   },
 
-  "year": "2017 - 2018",
+  "year": "2018 - 2019",
 
   "active_positions": [
     "Co-President 1",
     "Co-President 2",
-    "External Vice President",
+    "External Vice President 1",
+    "External Vice President 2",
     "Treasurer",
     "Events Co-Chair 1",
     "Events Co-Chair 2",
@@ -46,9 +47,7 @@
     "Events Co-Chair 2",
     "HackRice Co-Chair 1",
     "HackRice Co-Chair 2",
-    "RiceApps Chair",
-    "Freshman Rep 1",
-    "Freshman Rep 2"
+    "RiceApps Chair"
   ],
 
   "officers": {
@@ -58,7 +57,7 @@
       "email":           "sc73@rice.edu",
       "image":           "img/officers/spencer.jpg",
       "class":           "Jones 2019",
-      "position":        "Co-President",
+      "position":        "President",
       "hometown":        "Houston, TX",
       "contacts": {
         "email":         "mailto:sc73@rice.edu"
@@ -66,106 +65,118 @@
     },
 
     "Co-President 2": {
-      "name":            "Ani Kunaparaju",
-      "email":           "avk3@rice.edu",
-      "image":           "img/officers/ani.jpg",
-      "class":           "Jones 2019",
-      "position":        "Co-President",
-      "hometown":        "Cupertino, CA",
+      "name": "Raymond Yuan",
+      "email": "ry11@rice.edu",
+      "image": "img/officers/raymondy.jpg",
+      "class": "McMurtry 2019",
+      "position": "President",
+      "hometown": "Houston, TX",
       "contacts": {
-        "email":         "mailto:avk3@rice.edu"
+        "email": "mailto:ry11@rice.edu"
       }
     },
 
-    "External Vice President": {
-      "name":            "Raymond Yuan",
-      "email":           "ry11@rice.edu",
-      "image":           "img/officers/raymondy.jpg",
-      "class":           "McMurtry 2019",
+    "External Vice President 1": {
+      "name":            "William Koh",
+      "email":           "kk49@rice.edu",
+      "image":           "img/officers/willk.jpg",
+      "class":           "Baker 2019",
       "position":        "External Vice President",
-      "hometown":        "Houston, TX",
+      "hometown":        "Seoul, South Korea",
       "contacts": {
-        "email":         "mailto:ry11@rice.edu"
+        "email":         "mailto:kk49@rice.edu"
       }
     },
 
-    "Treasurer": {
+    "External Vice President 2": {
       "name":            "Anthony Cho",
       "email":           "sc80@rice.edu",
       "image":           "img/officers/anthony.jpg",
       "class":           "Duncan 2020",
-      "position":        "Treasurer",
+      "position":        "External Vice President",
       "hometown":        "Houston, TX",
       "contacts": {
         "email":         "mailto:sc80@rice.edu"
       }
     },
 
-    "Events Co-Chair 1": {
-      "name":            "Gunny Liu",
-      "email":           "jl134@rice.edu",
-      "image":           "img/officers/gunny.jpg",
-      "class":           "Lovett 2018",
-      "position":        "Events Co-Chair",
-      "hometown":        "Singapore, Singapore",
+    "Treasurer": {
+      "name": "Oeishi Bannerjee",
+      "email": "ob10@rice.edu",
+      "image": "img/officers/oeishi.jpg",
+      "class": "Sid Rich 2021",
+      "position": "Treasurer",
+      "hometown": "Cupertino, CA",
       "contacts": {
-        "email":         "mailto:jl134@rice.edu"
+        "email": "mailto:ob10@rice.edu"
+      }
+    },
+
+    "Events Co-Chair 1": {
+      "name":            "Grace Tan",
+      "email":           "gzt1@rice.edu",
+      "image":           "img/officers/grace.jpg",
+      "class":           "Brown 2021",
+      "position":        "Events Co-Chair",
+      "hometown":        "Houston, TX",
+      "contacts": {
+        "email":         "mailto:gzt1@rice.edu"
       }
     },
 
     "Events Co-Chair 2": {
-        "name":            "Napas Udomsak",
-        "email":           "nu4@rice.edu",
-        "image":           "img/officers/tian.jpg",
-        "class":           "Hanszen 2019",
+        "name":            "Luis Clague",
+        "email":           "luisclague@rice.edu",
+        "image":           "img/officers/luis.jpg",
+        "class":           "Brown 2021",
         "position":        "Events Co-Chair",
-        "hometown":        "Bangkok, Thailand",
+        "hometown":        "El Paso, TX",
         "contacts": {
-          "email":         "mailto:nu4@rice.edu"
+          "email":         "mailto:luisclague@rice.edu"
         }
     },
 
     "HackRice Co-Chair 1": {
-      "name":            "Avery Jordan",
-      "email":           "atj4@rice.edu",
-      "image":           "img/officers/avery.jpg",
-      "class":           "Wiess 2019",
-      "position":        "HackRice Co-Chair",
-      "hometown":        "Madisn, MI",
+      "name": "Avanthika Mahendrababu",
+      "email": "am118@rice.edu",
+      "image": "img/officers/avanthika.jpg",
+      "class": "Brown 2020",
+      "position": "HackRice Co-Chair",
+      "hometown": "Houston, TX",
       "contacts": {
-        "email":         "mailto:atj4@rice.edu"
+        "email": "mailto:am118@rice.edu"
       }
     },
 
     "HackRice Co-Chair 2": {
-      "name":            "Abhijeet Mulgund",
-      "email":           "aam14@rice.edu",
-      "image":           "img/officers/abhijeet.jpg",
-      "class":           "Wiess 2019",
+      "name":            "Shashank Mahesh",
+      "email":           "sm103@rice.edu",
+      "image":           "img/officers/shashank.jpg",
+      "class":           "Wiess 2020",
       "position":        "HackRice Co-Chair",
-      "hometown":        "Dayton, Ohio",
+      "hometown":        "Tampa, FL",
       "contacts": {
-        "email":         "mailto:aam14@rice.edu"
+        "email":         "mailto:sm103@rice.edu"
       }
     },
 
     "RiceApps Chair": {
-      "name":            "Cade Ritter",
-      "email":           "critter@rice.edu",
-      "image":           "img/officers/cade.jpg",
-      "class":           "Will Rice 2018",
+      "name":            "Jeffrey Wang",
+      "email":           "jhw5@rice.edu",
+      "image":           "img/officers/jeffreyw.jpg",
+      "class":           "Lovett 2019",
       "position":        "RiceApps Chair",
-      "hometown":        "Austin, TX",
+      "hometown":        "Taichung, Taiwan",
       "contacts": {
-        "email":         "mailto:critter@rice.edu"
+        "email":         "mailto:jhw5@rice.edu"
       }
     },
 
-    "Freshman Rep": {
+    "Freshman Rep 1": {
 
     },
 
-    "Freshman Rep": {
+    "Freshman Rep 2": {
 
     }
   },
