@@ -134,7 +134,7 @@
     "Events Co-Chair 1": {
       "name":            "Angie Chen",
       "email":           "axc1@rice.edu",
-      "image":           "img/officers/grace.jpg",
+      "image":           "img/officers/angie.jpg",
       "class":           "Martel 2022",
       "position":        "Events Co-Chair",
       "hometown":        "Chicago, IL",
@@ -170,10 +170,10 @@
     "HackRice Co-Chair 2": {
       "name":            "George Dyre",
       "email":           "gtd2@rice.edu",
-      "image":           "img/officers/shashank.jpg",
+      "image":           "img/officers/george.jpg",
       "class":           "Wiess 2020",
       "position":        "HackRice Co-Chair",
-      "hometown":        "Tampa, FL",
+      "hometown":        "Billings MT",
       "contacts": {
         "email":         "mailto:gtd2@rice.edu"
       }
@@ -194,10 +194,10 @@
     "Publicist": {
       "name":            "Shaquille Que",
       "email":           "stq1@rice.edu",
-      "image":           "img/officers/danny.jpg",
+      "image":           "img/officers/shaquille.jpg",
       "class":           "McMurtry 2022",
       "position":        "Publicist",
-      "hometown":        "Cleveland, Ohio",
+      "hometown":        "Philippines",
       "contacts": {
         "email":         "mailto:stq1@rice.edu"
       }
@@ -209,7 +209,7 @@
       "image":           "img/officers/.jpg",
       "class":           "McMurtry 2022",
       "position":        "Webmaster",
-      "hometown":        "Cleveland, Ohio",
+      "hometown":        "South Korea",
       "contacts": {
         "email":         "mailto:da30@rice.edu"
       }
