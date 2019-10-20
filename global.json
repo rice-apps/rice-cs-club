@@ -26,11 +26,27 @@
   "year": "2019 - 2020",
 
   "active_positions": [
-    "President"
+    "President",
+    "Internal Vice President 1",
+    "Internal Vice President 2",
+    "External Vice President 1",
+    "External Vice President 2",
+    "Treasurer",
+    "Events Co-Chair 1",
+    "Events Co-Chair 2",
+    "Publicist"
   ],
 
   "officer_positions": [
-    "President"
+    "President",
+    "Internal Vice President 1",
+    "Internal Vice President 2",
+    "External Vice President 1",
+    "External Vice President 2",
+    "Treasurer",
+    "Events Co-Chair 1",
+    "Events Co-Chair 2",
+    "Publicist"
   ],
 
   "officers": {
@@ -45,7 +61,98 @@
       "contacts": {
         "email":         "mailto:Anthony.Cho@rice.edu"
       }
+    },
+    "Internal Vice President 1": {
+      "name":            "Oeishi Banerjee",
+      "email":           "ob10@rice.edu",
+      "image":           "img/officers/oeishi.jpg",
+      "class":           "Sid Richardson 2021",
+      "position":        "Internal Vice President 1",
+      "hometown":        "Cupertino, CA",
+      "contacts": {
+        "email":         "mailto:ob10@rice.edu"
+      }
+    },
+    "Internal Vice President 2": {
+      "name":            "Grace Tan",
+      "email":           "gzt1@rice.edu",
+      "image":           "img/officers/grace.jpg",
+      "class":           "Brown 2021",
+      "position":        "Internal Vice President 2",
+      "hometown":        "Redwood City, CA",
+      "contacts": {
+        "email":         "mailto:gzt1@rice.edu"
+      }
+    },
+    "External Vice President 1": {
+      "name":            "Shashank Mahesh",
+      "email":           "sm103@rice.edu",
+      "image":           "img/officers/shashank.jpg",
+      "class":           "Wiess 2020",
+      "position":        "External Vice President 1",
+      "hometown":        "Tampa, FL",
+      "contacts": {
+        "email":         "mailto:sm103@rice.edu"
+      }
+    },
+    "External Vice President 2": {
+      "name":            "Luis Clague",
+      "email":           "lc61@rice.edu",
+      "image":           "img/officers/luis.jpg",
+      "class":           "Brown 2021",
+      "position":        "External Vice President 2",
+      "hometown":        "El Paso, TX",
+      "contacts": {
+        "email":         "mailto:luis.clague@rice.edu"
+      }
+    },
+    "Treasurer": {
+      "name":            "Paul Jiang",
+      "email":           "sj49@rice.edu",
+      "image":           "img/officers/paul.jpg",
+      "class":           "Brown 2021",
+      "position":        "Treasurer",
+      "hometown":        "El Paso, TX",
+      "contacts": {
+        "email":         "mailto:sj49@rice.edu"
+      }
+    },
+    "Events Co-Chair 1": {
+      "name":            "Pranay Mittal",
+      "email":           "pm28@rice.edu",
+      "image":           "img/officers/pranay.jpg",
+      "class":           "Wiess 2022",
+      "position":        "Events Co-Chair 1",
+      "hometown":        "Redwood City, CA",
+      "contacts": {
+        "email":         "mailto:pm28@rice.edu"
+      }
+    },
+    "Events Co-Chair 2": {
+      "name":            "Angie Chen",
+      "email":           "axc1@rice.edu",
+      "image":           "img/officers/angie.jpg",
+      "class":           "Martel 2022",
+      "position":        "Events Co-Chair 2",
+      "hometown":        "Naperville, IL",
+      "contacts": {
+        "email":         "mailto:axc1@rice.edu"
+      }
+    },
+    "Publicist": {
+      "name":            "Shaquille Que",
+      "email":           "stq1@rice.edu",
+      "image":           "img/officers/shaquille.jpg",
+      "class":           "McMurtry 2022",
+      "position":        "Treasurer",
+      "hometown":        "Philippines",
+      "contacts": {
+        "email":         "mailto:shaquille.que@rice.edu"
+      }
     }
+
+
+  
   },
 
   "officers_2015_2016": {
