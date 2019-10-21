@@ -4,14 +4,17 @@
     {"text": "Officers",    "link": "officers"},
     {"text": "Career",      "link": "career"},
     {"text": "Events",      "link": "events"},
+    {"text": "Mailing List","link": "listserv"},
     {"text": "RiceApps",   "link": "http://riceapps.org/"},
     {"text": "HackRice",    "link": "http://hack.rice.edu/"},
+    {"text": "Remixcs",    "link": "http://remixcs.rice.edu/"},
+    {"text": "Coffee Chats",      "link": "coffeechats"},
     {"text": "Constitution","link": "/files/Constitution.pdf"},
     {"text": "Contact",     "link": "contact"}
   ],
 
   "links": {
-    "mailing_list":      "https://mailman.rice.edu/mailman/listinfo/geeks-l",
+    "mailing_list":      "listserv",
     "facebook":          "http://www.facebook.com/pages/Rice-Computer-Science-Club/193817073994670",
     "cs_facebook_group": "http://www.facebook.com/groups/365985373415471/",
     "slack":             "ricecs.slack.com"
